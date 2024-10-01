@@ -1,15 +1,13 @@
 body {
   height: 100vh;
   display: flex;
-  background-color: gray;
   justify-content: center;
   align-items: center;
+  background-color: lightgray;
 }
 
 .container {
-  width: 1110px;
-  height: 572px;
-  background-color: rgb(207, 197, 197);
+
   display: grid;
   grid-template-areas: "deniel deniel deniel deniel jon  kira" 
   "deniel deniel deniel deniel jon kira"
@@ -17,14 +15,12 @@ body {
   "jen patric patric patric patric kira"
   "jen patric patric patric patric kira"
   "jen patric patric patric patric kira";
- gap: 5px;
- padding: 5px;
+ gap: 15px;
+ padding: 15px;
+
 }
 .boxviol {
-  width: 540px;
-  height: 282px;
-  top: 164px;
-  left: 165px;
+
   gap: 0px;
   border-radius: 8px;
   opacity: 0px;
@@ -33,7 +29,7 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 5px;
+  padding: 15px;
  
 }
 .boxhed{
@@ -41,7 +37,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 76px;
-    height: 28px;
+
     
     
 }
@@ -95,10 +91,8 @@ body {
 }
 
 .boxgray{
-    width: 255px;
-    height: 282px;
-    top: 164px;
-    left: 735px;
+ 
+  
     border-radius: 8px ;
     opacity: 0px;
    background: #48556A;
@@ -106,6 +100,7 @@ body {
     display: grid;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 
 }
 .heading2 {
@@ -133,10 +128,6 @@ body {
   color: #ffffff;
 }
 .boxwhite{
-    width: 255px;
-height: 266px;
-top: 470px;
-left: 165px;
 gap: 0px;
 border-radius: 8px ;
 opacity: 0px;
@@ -145,6 +136,7 @@ grid-area: jen;
 display: grid;
 justify-content: center;
 align-items: center;
+padding: 15px;
 }
 .heading3{
     width: 191px;
@@ -172,10 +164,6 @@ color:  #48556A;
 
 }
 .boxblack{
-    width: 540px;
-height: 266px;
-top: 470px;
-left: 450px;
 gap: 0px;
 border-radius: 8px ;
 background: #19202D;
@@ -183,6 +171,8 @@ grid-area: patric;
 display: grid;
 justify-content: center;
 align-items: center;
+padding: 5px;
+padding: 15px;
 }
 .heading4{
     width: 476px;
@@ -211,10 +201,7 @@ color:  #FFFFFF;
 
 }
 .boxlarge{
-    width: 255px;
-height: 572px;
-top: 164px;
-left: 1020px;
+
 gap: 0px;
 border-radius: 8px ;
 opacity: 0px;
@@ -223,6 +210,9 @@ grid-area: kira;
 display: grid;
 justify-content: center;
 align-items: center;
+padding-bottom: 5px;
+padding: 15px;
+
 }
 .heading5{
     width: 191px;
