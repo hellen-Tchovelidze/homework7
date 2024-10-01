@@ -33,18 +33,16 @@ body {
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 5px;
+ 
 }
 .boxhed{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 110px;
     width: 76px;
     height: 28px;
-    top: 190px;
-    left: 242px;
-    gap: 0px;
-    opacity: 0px;
+    
     
 }
 
@@ -269,4 +267,15 @@ left: 767px;
 gap: 0px;
 opacity: 0px;
 
+}
+.child_div{
+    margin: 0;
+    padding: 0;
+
+}
+.boxspace{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
