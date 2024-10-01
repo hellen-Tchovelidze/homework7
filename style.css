@@ -1,0 +1,242 @@
+body {
+  height: 100vh;
+  display: flex;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1110px;
+  height: 572px;
+  background-color: rgb(207, 197, 197);
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "deniel deniel deniel deniel jon kira" 
+  "deniel deniel deniel deniel jon kira"
+  "deniel deniel deniel deniel jon kira"
+  "jen patric patric patric patric kira"
+  "jen patric patric patric patric kira"
+  "jen patric patric patric patric kira";
+ 
+}
+.boxviol {
+  width: 540px;
+  height: 282px;
+  top: 164px;
+  left: 165px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  background: #733fc8;
+  grid-area: deniel;
+  display: grid;
+}
+.boxhed{
+    display: flex;
+    justify-content: space-between;
+}
+.name1 {
+  width: 73px;
+  height: 13px;
+  gap: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 13px;
+  text-align: left;
+  color: #ffffff;
+}
+.status {
+  width: 76px;
+  height: 11px;
+  top: 17px;
+  gap: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 11px;
+  text-align: left;
+}
+.heading {
+  width: 476px;
+  height: 72px;
+  top: 236px;
+  left: 197px;
+  gap: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.about {
+  width: 476px;
+  height: 90px;
+  top: 324px;
+  left: 197px;
+  gap: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+.boxgray{
+    width: 255px;
+    height: 282px;
+    top: 164px;
+    left: 735px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+   background: #48556A;
+    grid-area: jon;
+    display: grid;
+
+}
+.heading2 {
+  width: 191px;
+  height: 72px;
+  top: 236px;
+  left: 767px;
+  gap: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #ffffff;
+}
+.about2 {
+  width: 191px;
+  height: 90px;
+  top: 324px;
+  left: 767px;
+  gap: 0px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: #ffffff;
+}
+.boxwhite{
+    width: 255px;
+height: 266px;
+top: 470px;
+left: 165px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+grid-area: jen;
+display: grid;
+}
+.heading3{
+    width: 191px;
+height: 72px;
+top: 542px;
+left: 197px;
+gap: 0px;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color: #48556A;
+}
+.about3{
+    width: 191px;
+height: 72px;
+top: 638px;
+left: 197px;
+gap: 0px;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color:  #48556A;
+
+}
+.boxblack{
+    width: 540px;
+height: 266px;
+top: 470px;
+left: 450px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+background: #19202D;
+grid-area: patric;
+display: grid;
+}
+.heading4{
+    width: 476px;
+height: 72px;
+top: 542px;
+left: 482px;
+gap: 0px;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color:#ECF2F8;
+
+}
+.about4{
+    width: 476px;
+height: 72px;
+top: 638px;
+left: 482px;
+gap: 0px;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color:  #FFFFFF;
+
+}
+.boxlarge{
+    width: 255px;
+height: 572px;
+top: 164px;
+left: 1020px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+grid-area: kira;
+}
+.heading5{
+    width: 191px;
+height: 72px;
+top: 236px;
+left: 1052px;
+gap: 0px;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+color:  #48556A;
+
+}
+.about5{
+    width: 191px;
+height: 378px;
+top: 332px;
+left: 1052px;
+gap: 0px;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+text-align: left;
+color: #48556A;
+
+}
+#color{
+    color: white;
+}
+.colorw{
+    color: #FFFFFF;
+}
+.colorg{
+ color: #48556A ;  
+}
