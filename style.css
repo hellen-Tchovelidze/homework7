@@ -11,15 +11,14 @@ body {
   height: 572px;
   background-color: rgb(207, 197, 197);
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
   grid-template-areas: "deniel deniel deniel deniel jon  kira" 
   "deniel deniel deniel deniel jon kira"
   "deniel deniel deniel deniel jon kira"
   "jen patric patric patric patric kira"
   "jen patric patric patric patric kira"
   "jen patric patric patric patric kira";
- 
+ gap: 5px;
+ padding: 5px;
 }
 .boxviol {
   width: 540px;
@@ -40,7 +39,15 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 110px;
+    width: 76px;
+    height: 28px;
+    top: 190px;
+    left: 242px;
+    gap: 0px;
+    opacity: 0px;
+    
 }
+
 .name1 {
   width: 73px;
   height: 13px;
@@ -86,6 +93,7 @@ body {
   justify-content: center;
   align-items: center;
   display: grid;
+  gap: 5px;
 }
 
 .boxgray{
