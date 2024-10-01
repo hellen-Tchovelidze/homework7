@@ -10,12 +10,10 @@ body {
   width: 1110px;
   height: 572px;
   background-color: rgb(207, 197, 197);
-  justify-content: center;
-  align-items: center;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  grid-template-areas: "deniel deniel deniel deniel jon kira" 
+  grid-template-areas: "deniel deniel deniel deniel jon  kira" 
   "deniel deniel deniel deniel jon kira"
   "deniel deniel deniel deniel jon kira"
   "jen patric patric patric patric kira"
@@ -34,10 +32,14 @@ body {
   background: #733fc8;
   grid-area: deniel;
   display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .boxhed{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 110px;
 }
 .name1 {
   width: 73px;
@@ -76,12 +78,14 @@ body {
   height: 90px;
   top: 324px;
   left: 197px;
-  gap: 0px;
   font-size: 13px;
   font-weight: 500;
   line-height: 18px;
   text-align: left;
   color: #cfcfcf;
+  justify-content: center;
+  align-items: center;
+  display: grid;
 }
 
 .boxgray{
@@ -94,6 +98,8 @@ body {
    background: #48556A;
     grid-area: jon;
     display: grid;
+    justify-content: center;
+    align-items: center;
 
 }
 .heading2 {
@@ -131,6 +137,8 @@ opacity: 0px;
 background: #FFFFFF;
 grid-area: jen;
 display: grid;
+justify-content: center;
+align-items: center;
 }
 .heading3{
     width: 191px;
@@ -167,6 +175,8 @@ border-radius: 8px 0px 0px 0px;
 background: #19202D;
 grid-area: patric;
 display: grid;
+justify-content: center;
+align-items: center;
 }
 .heading4{
     width: 476px;
@@ -204,6 +214,9 @@ border-radius: 8px 0px 0px 0px;
 opacity: 0px;
 background: #FFFFFF;
 grid-area: kira;
+display: grid;
+justify-content: center;
+align-items: center;
 }
 .heading5{
     width: 191px;
@@ -239,4 +252,13 @@ color: #48556A;
 }
 .colorg{
  color: #48556A ;  
+}
+.img{
+    width: 28px;
+height: 28px;
+top: 190px;
+left: 767px;
+gap: 0px;
+opacity: 0px;
+
 }
